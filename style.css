@@ -7,3 +7,12 @@ html{
 }
 *{
     box-sizing: border-box;
+
+}
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}

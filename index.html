@@ -6,29 +6,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>My Web Page</h1>
-
-        <p id="myP">This is a p element.</p>
-
-        <div id="myDIV">This is a div element.</div>
-        <div class="list">
-            <table>
+        <table id="container">
+            <thead>
                 <tr>
-                    <th></th>
-                    <th>Math</th>
-                    <th>Physics</th>
-                    <th>Chemistry</th>
-                    <th>History</th>
-                 </tr>
-                 <tr>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                     <td></td>
-                 </tr>
-            </table>
-        </div>
-        <script src="script.js" defer></script>
+                    <th>Name:</th>
+                    <th>Lastname:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   
+                </tr>
+            </tbody>
+        </table>
+        <input id="nname" name="name" type="text" placeholder="Name">
+        <input id="nlastname" name="lastname" type="text" placeholder="Lastname">
+        <input id="hgrade" name="hgrade" type="number" placeholder="html grade">
+        <input id="cgrade" name="cgrade" type="number" placeholder="Css Grade">
+        <input id="mgrade" name="mgrade" type="number" placeholder="Math Grade">
+        <input id="jgrade" name="jgrade" type="number" placeholder="Js Grade">
+        <input type="submit" class="submitinfo">
+ <script src="script.js" defer></script>
     </body>
 </html>
